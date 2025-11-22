@@ -1,4 +1,4 @@
-from .student import Student
+from src.student import Student
 
 class GradeManager:
     def __init__(self, filename="students.txt"):
