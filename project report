@@ -1,0 +1,89 @@
+PROJECT REPORT
+Student Grade Management System
+(A Simple Python Project That Actually Works!)
+
+Submitted By
+Name: Rajat
+Course: M.TECH INT. DATA SCIENCE
+College: VIT Bhopal
+Year: 2025–2030
+
+Hey! Here's What I Built
+I made a small but super useful console-based tool called Student Grade Management System. Imagine a mini version of what your class teacher uses to keep track of marks – but I coded it from scratch using only Python!
+Instead of losing all the data when the program closes (like most beginner projects), mine remembers everything by saving it into a file called students.txt. Open it tomorrow, and all your students are still there!
+
+What My Project Can Do
+
+Add a new student (Roll No, Name, Age, Course)
+Show the full list with average marks and letter grade
+Add or update marks for any subject
+Automatically calculate grades (A+, A, B+, etc.)
+Crown the topper of the class
+Delete a student (if someone drops out)
+Everything gets saved automatically – no data loss!
+
+
+Tech Stuff (But Simple)
+
+Pure Python – no extra downloads needed!
+Used classes (OOP feels cool now)
+Data saved in a normal text file (students.txt)
+Clean folders and files so it looks professional
+
+
+How I Organized Everything
+textStudent_Grade_Management_System/
+├── main.py           ← Where the magic starts
+├── students.txt      ← Your data lives here forever
+├── README.md         ← Quick guide for anyone
+└── src/
+    ├── student.py        ← The Student "blueprint"
+    ├── grade_manager.py  ← Brain of the project
+    └── utils.py          ← Makes the screen look pretty
+
+My Favorite Part of the Code
+Pythondef get_grade(self):
+    avg = self.get_average()
+    if avg >= 90: return 'A+'
+    elif avg >= 80: return 'A'
+    # ... and so on
+This tiny function instantly tells if someone got an A+ or needs to study harder – feels like real grading!
+
+What It Looks Like When Running
+text============================================================
+           STUDENT GRADE MANAGEMENT SYSTEM               
+         Developed by Rajat - VIT Bhopal                
+============================================================
+
+1. Add Student
+2. View All Students
+3. Add/Update Marks
+4. View Topper
+5. Delete Student
+6. Exit
+
+
+
+What I Learned (Real Talk)
+
+How to save data so it doesn’t disappear
+Classes are actually useful (not just theory)
+Writing clean code makes life 10x easier
+Small projects can feel super satisfying when they just work
+
+
+Future Ideas (If I Get More Time)
+
+Add a graphical window (maybe with Tkinter)
+Let teachers log in with a password
+Generate PDF report cards
+Search students by name
+Add attendance too!
+
+
+Final Words
+This was my first proper Python project that feels like a real mini-application. It’s simple, but it works perfectly, saves data, and looks neat. I’m really proud of it!
+Thank you for checking it out!
+Made with lots of coffee and zero external libraries
+Rajat
+VIT Bhopal 
