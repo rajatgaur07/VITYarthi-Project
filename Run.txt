@@ -1,0 +1,4 @@
+**How to Run:**
+1. Create all folders and files as shown
+2. Open terminal in the project folder
+3. Run: `python main.py`
