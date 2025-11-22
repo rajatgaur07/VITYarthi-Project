@@ -1,0 +1,11 @@
+Student_Grade_Management_System/
+│
+├── main.py                     # Main entry point
+├── students.txt              # Data storage (text file)
+├── README.md                   # Project description
+├── requirements.txt            # Dependencies
+└── src/
+    ├── __init__.py
+    ├── student.py              # Student class
+    ├── grade_manager.py         # Core logic
+    └── utils.py                # Helper functions
